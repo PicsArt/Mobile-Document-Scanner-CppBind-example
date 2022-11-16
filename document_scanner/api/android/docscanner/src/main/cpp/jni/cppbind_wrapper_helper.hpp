@@ -145,7 +145,40 @@ inline std::vector<jfloat> getFloatArray(JNIEnv* env, jobject obj) {
     return ret;
 }
 
-inline jobject extractObject(JNIEnv* env, jobject obj)  {
+inline std::vector<jshort> getShortArray(JNIEnv* env, jobject obj) {
+    jshortArray jshortArray1 = (jshortArray)obj;
+    int len = env->GetArrayLength(jshortArray1);
+    std::vector<jshort> ret;
+    ret.reserve(len);
+    jshort* arr = env->GetShortArrayElements(jshortArray1, nullptr);
+    std::copy(arr, arr + len, std::back_inserter(ret));
+    env->ReleaseShortArrayElements(jshortArray1, arr, 0);
+    return ret;
+}
+
+inline std::vector<jboolean> getBooleanArray(JNIEnv* env, jobject obj) {
+    jbooleanArray jbooleanArray1 = (jbooleanArray)obj;
+    int len = env->GetArrayLength(jbooleanArray1);
+    std::vector<jboolean> ret;
+    ret.reserve(len);
+    jboolean* arr = env->GetBooleanArrayElements(jbooleanArray1, nullptr);
+    std::copy(arr, arr + len, std::back_inserter(ret));
+    env->ReleaseBooleanArrayElements(jbooleanArray1, arr, 0);
+    return ret;
+}
+
+inline std::vector<jchar> getCharArray(JNIEnv* env, jobject obj) {
+    jcharArray jcharArray1 = (jcharArray)obj;
+    int len = env->GetArrayLength(jcharArray1);
+    std::vector<jchar> ret;
+    ret.reserve(len);
+    jchar* arr = env->GetCharArrayElements(jcharArray1, nullptr);
+    std::copy(arr, arr + len, std::back_inserter(ret));
+    env->ReleaseCharArrayElements(jcharArray1, arr, 0);
+    return ret;
+}
+
+inline jobject extractObject(JNIEnv*, jobject obj)  {
     // to not have redundant checks
     return obj;
 }
@@ -171,7 +204,12 @@ inline jdouble extractDouble(JNIEnv* env, jobject obj)  {
 
 inline jlong extractLong(JNIEnv* env, jobject obj)  {
     return env->CallLongMethod(obj,
-        env->GetMethodID(env->FindClass("java/lang/Long"), "longValue", "()L"));
+        env->GetMethodID(env->FindClass("java/lang/Long"), "longValue", "()J"));
+}
+
+inline jshort extractShort(JNIEnv* env, jobject obj) {
+    return env->CallLongMethod(obj,
+        env->GetMethodID(env->FindClass("java/lang/Short"), "shortValue", "()S"));
 }
 
 inline jobject longToObject(JNIEnv* env, jlong val) {
@@ -209,5 +247,22 @@ inline jobject boolToObject(JNIEnv* env, jboolean val) {
     jmethodID constructorId = env->GetMethodID(cls, "<init>", "(Z)V");
     return env->NewObject(cls, constructorId, val);
 }
+
+template <class Descendant, class Base>
+inline auto safe_cast(void* obj_ptr) {
+    if constexpr (std::is_convertible<Descendant*, Base*>::value)
+        return static_cast<Descendant*>(obj_ptr);
+    else
+        return nullptr;
+}
+
+template <class Descendant, class Base>
+inline auto safe_shared_ptr_cast(void* obj_ptr) {
+    if constexpr (std::is_convertible<Descendant*, Base*>::value)
+        return *static_cast<std::shared_ptr<Descendant>*>(obj_ptr);
+    else
+        return nullptr;
+}
+
 } // end of cppbind
 #endif //__WRAPPER_HELPER_HPP__

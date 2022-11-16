@@ -13,7 +13,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.FileProvider
-import cppbind.exception_helpers.StdRangeError
+import cppbind.exceptions.StdRangeError
 import cv.imread
 import doc_scanner.DocCornerPointsExtractor
 import doc_scanner.DocExtractor

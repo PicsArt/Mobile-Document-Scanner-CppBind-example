@@ -32,7 +32,7 @@ vars:
   swift.cxx_out_dir: "{{path.join(out_prj_dir, 'document_scanner/api/ios/DocumentScannerFramework/DocumentScannerFramework/Cpp')}}"
   swift.out_dir: "{{path.join(out_prj_dir, 'document_scanner/api/ios/DocumentScannerFramework/DocumentScannerFramework/swift')}}"
   swift.c_wrapper_lib_name: DocumentScannerFramework.Private
-  swift.cxx_out_rel_path: 'DocumentScannerFramework'
+  swift.cxx_helpers_out_rel_path: 'DocumentScannerFramework'
   swift.is_c_wrapper_external: True
 
 type_vars:
