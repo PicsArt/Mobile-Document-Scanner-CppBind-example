@@ -10,22 +10,23 @@
 		73C424AA283CD76F00CEAE37 /* DocumentScannerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C424A9283CD76F00CEAE37 /* DocumentScannerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73C424D4283CDA5700CEAE37 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C424D3283CDA5700CEAE37 /* opencv2.framework */; };
 		76E72ACB28570A0A00383829 /* c_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72ABC28570A0A00383829 /* c_helpers.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		76E72ACC28570A0A00383829 /* c_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72ABE28570A0A00383829 /* c_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		76E72ACD28570A0A00383829 /* c_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72ABF28570A0A00383829 /* c_types.cpp */; };
-		76E72ACE28570A0A00383829 /* c_imgcodecs.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72AC028570A0A00383829 /* c_imgcodecs.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		76E72ACF28570A0A00383829 /* c_mat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC128570A0A00383829 /* c_mat.cpp */; };
-		76E72AD028570A0A00383829 /* c_imgcodecs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC228570A0A00383829 /* c_imgcodecs.cpp */; };
-		76E72AD128570A0A00383829 /* c_mat.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72AC328570A0A00383829 /* c_mat.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		76E72AD228570A0A00383829 /* c_document_scanner_cv.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72AC528570A0A00383829 /* c_document_scanner_cv.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		76E72AD328570A0A00383829 /* c_document_scanner_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC628570A0A00383829 /* c_document_scanner_cv.cpp */; };
-		76E72AD428570A0A00383829 /* c_std_exc_classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC928570A0A00383829 /* c_std_exc_classes.cpp */; };
-		76E72AD528570A0A00383829 /* c_std_exc_classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72ACA28570A0A00383829 /* c_std_exc_classes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76E72ACC28570A0A00383829 /* c_swift_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72ABE28570A0A00383829 /* c_swift_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76E72ACD28570A0A00383829 /* c_swift_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72ABF28570A0A00383829 /* c_swift_types.cpp */; };
+		76E72ACE28570A0A00383829 /* c_swift_imgcodecs.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72AC028570A0A00383829 /* c_swift_imgcodecs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76E72ACF28570A0A00383829 /* c_swift_mat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC128570A0A00383829 /* c_swift_mat.cpp */; };
+		76E72AD028570A0A00383829 /* c_swift_imgcodecs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC228570A0A00383829 /* c_swift_imgcodecs.cpp */; };
+		76E72AD128570A0A00383829 /* c_swift_mat.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72AC328570A0A00383829 /* c_swift_mat.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76E72AD228570A0A00383829 /* c_swift_document_scanner_cv.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72AC528570A0A00383829 /* c_swift_document_scanner_cv.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76E72AD328570A0A00383829 /* c_swift_document_scanner_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC628570A0A00383829 /* c_swift_document_scanner_cv.cpp */; };
+		76E72AD428570A0A00383829 /* c_swift_std_exc_classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AC928570A0A00383829 /* c_swift_std_exc_classes.cpp */; };
+		76E72AD528570A0A00383829 /* c_swift_std_exc_classes.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E72ACA28570A0A00383829 /* c_swift_std_exc_classes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		76E72AE028570A1900383829 /* document_scanner_cv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AD728570A1900383829 /* document_scanner_cv.swift */; };
 		76E72AE128570A1900383829 /* exceptionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E72AD928570A1900383829 /* exceptionUtils.swift */; };
 		76E72AE228570A1900383829 /* std_exc_classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E72ADB28570A1900383829 /* std_exc_classes.swift */; };
 		76E72AE328570A1900383829 /* imgcodecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E72ADD28570A1900383829 /* imgcodecs.swift */; };
 		76E72AE428570A1900383829 /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E72ADE28570A1900383829 /* types.swift */; };
 		76E72AE528570A1900383829 /* mat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E72ADF28570A1900383829 /* mat.swift */; };
+		8420CC6D2926681F00A2AE06 /* cppbind_wrapper_helper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8420CC6C2926681F00A2AE06 /* cppbind_wrapper_helper.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,22 +35,23 @@
 		73C424D2283CD8DC00CEAE37 /* docScanner.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = docScanner.modulemap; sourceTree = "<group>"; };
 		73C424D3283CDA5700CEAE37 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		76E72ABC28570A0A00383829 /* c_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = c_helpers.h; path = Cpp/c_helpers.h; sourceTree = "<group>"; };
-		76E72ABE28570A0A00383829 /* c_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_types.h; sourceTree = "<group>"; };
-		76E72ABF28570A0A00383829 /* c_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_types.cpp; sourceTree = "<group>"; };
-		76E72AC028570A0A00383829 /* c_imgcodecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_imgcodecs.h; sourceTree = "<group>"; };
-		76E72AC128570A0A00383829 /* c_mat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_mat.cpp; sourceTree = "<group>"; };
-		76E72AC228570A0A00383829 /* c_imgcodecs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_imgcodecs.cpp; sourceTree = "<group>"; };
-		76E72AC328570A0A00383829 /* c_mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_mat.h; sourceTree = "<group>"; };
-		76E72AC528570A0A00383829 /* c_document_scanner_cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_document_scanner_cv.h; sourceTree = "<group>"; };
-		76E72AC628570A0A00383829 /* c_document_scanner_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_document_scanner_cv.cpp; sourceTree = "<group>"; };
-		76E72AC928570A0A00383829 /* c_std_exc_classes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_std_exc_classes.cpp; sourceTree = "<group>"; };
-		76E72ACA28570A0A00383829 /* c_std_exc_classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_std_exc_classes.h; sourceTree = "<group>"; };
+		76E72ABE28570A0A00383829 /* c_swift_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_swift_types.h; sourceTree = "<group>"; };
+		76E72ABF28570A0A00383829 /* c_swift_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_swift_types.cpp; sourceTree = "<group>"; };
+		76E72AC028570A0A00383829 /* c_swift_imgcodecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_swift_imgcodecs.h; sourceTree = "<group>"; };
+		76E72AC128570A0A00383829 /* c_swift_mat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_swift_mat.cpp; sourceTree = "<group>"; };
+		76E72AC228570A0A00383829 /* c_swift_imgcodecs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_swift_imgcodecs.cpp; sourceTree = "<group>"; };
+		76E72AC328570A0A00383829 /* c_swift_mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_swift_mat.h; sourceTree = "<group>"; };
+		76E72AC528570A0A00383829 /* c_swift_document_scanner_cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_swift_document_scanner_cv.h; sourceTree = "<group>"; };
+		76E72AC628570A0A00383829 /* c_swift_document_scanner_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_swift_document_scanner_cv.cpp; sourceTree = "<group>"; };
+		76E72AC928570A0A00383829 /* c_swift_std_exc_classes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_swift_std_exc_classes.cpp; sourceTree = "<group>"; };
+		76E72ACA28570A0A00383829 /* c_swift_std_exc_classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_swift_std_exc_classes.h; sourceTree = "<group>"; };
 		76E72AD728570A1900383829 /* document_scanner_cv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = document_scanner_cv.swift; sourceTree = "<group>"; };
 		76E72AD928570A1900383829 /* exceptionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exceptionUtils.swift; sourceTree = "<group>"; };
 		76E72ADB28570A1900383829 /* std_exc_classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = std_exc_classes.swift; sourceTree = "<group>"; };
 		76E72ADD28570A1900383829 /* imgcodecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgcodecs.swift; sourceTree = "<group>"; };
 		76E72ADE28570A1900383829 /* types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
 		76E72ADF28570A1900383829 /* mat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mat.swift; sourceTree = "<group>"; };
+		8420CC6C2926681F00A2AE06 /* cppbind_wrapper_helper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = cppbind_wrapper_helper.hpp; path = Cpp/cppbind_wrapper_helper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				76E72ABC28570A0A00383829 /* c_helpers.h */,
+				8420CC6C2926681F00A2AE06 /* cppbind_wrapper_helper.hpp */,
 				76E72AC728570A0A00383829 /* cppbind */,
 				76E72ABD28570A0A00383829 /* cv */,
 				76E72AC428570A0A00383829 /* doc_scanner */,
@@ -116,12 +119,12 @@
 		76E72ABD28570A0A00383829 /* cv */ = {
 			isa = PBXGroup;
 			children = (
-				76E72ABE28570A0A00383829 /* c_types.h */,
-				76E72ABF28570A0A00383829 /* c_types.cpp */,
-				76E72AC028570A0A00383829 /* c_imgcodecs.h */,
-				76E72AC128570A0A00383829 /* c_mat.cpp */,
-				76E72AC228570A0A00383829 /* c_imgcodecs.cpp */,
-				76E72AC328570A0A00383829 /* c_mat.h */,
+				76E72ABE28570A0A00383829 /* c_swift_types.h */,
+				76E72ABF28570A0A00383829 /* c_swift_types.cpp */,
+				76E72AC028570A0A00383829 /* c_swift_imgcodecs.h */,
+				76E72AC128570A0A00383829 /* c_swift_mat.cpp */,
+				76E72AC228570A0A00383829 /* c_swift_imgcodecs.cpp */,
+				76E72AC328570A0A00383829 /* c_swift_mat.h */,
 			);
 			name = cv;
 			path = Cpp/cv;
@@ -130,8 +133,8 @@
 		76E72AC428570A0A00383829 /* doc_scanner */ = {
 			isa = PBXGroup;
 			children = (
-				76E72AC528570A0A00383829 /* c_document_scanner_cv.h */,
-				76E72AC628570A0A00383829 /* c_document_scanner_cv.cpp */,
+				76E72AC528570A0A00383829 /* c_swift_document_scanner_cv.h */,
+				76E72AC628570A0A00383829 /* c_swift_document_scanner_cv.cpp */,
 			);
 			name = doc_scanner;
 			path = Cpp/doc_scanner;
@@ -140,19 +143,19 @@
 		76E72AC728570A0A00383829 /* cppbind */ = {
 			isa = PBXGroup;
 			children = (
-				76E72AC828570A0A00383829 /* exception_helpers */,
+				76E72AC828570A0A00383829 /* exceptions */,
 			);
 			name = cppbind;
 			path = Cpp/cppbind;
 			sourceTree = "<group>";
 		};
-		76E72AC828570A0A00383829 /* exception_helpers */ = {
+		76E72AC828570A0A00383829 /* exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				76E72AC928570A0A00383829 /* c_std_exc_classes.cpp */,
-				76E72ACA28570A0A00383829 /* c_std_exc_classes.h */,
+				76E72AC928570A0A00383829 /* c_swift_std_exc_classes.cpp */,
+				76E72ACA28570A0A00383829 /* c_swift_std_exc_classes.h */,
 			);
-			path = exception_helpers;
+			path = exceptions;
 			sourceTree = "<group>";
 		};
 		76E72AD628570A1900383829 /* doc_scanner */ = {
@@ -168,18 +171,18 @@
 			isa = PBXGroup;
 			children = (
 				76E72AD928570A1900383829 /* exceptionUtils.swift */,
-				76E72ADA28570A1900383829 /* exception_helpers */,
+				76E72ADA28570A1900383829 /* exceptions */,
 			);
 			name = cppbind;
 			path = swift/cppbind;
 			sourceTree = "<group>";
 		};
-		76E72ADA28570A1900383829 /* exception_helpers */ = {
+		76E72ADA28570A1900383829 /* exceptions */ = {
 			isa = PBXGroup;
 			children = (
 				76E72ADB28570A1900383829 /* std_exc_classes.swift */,
 			);
-			path = exception_helpers;
+			path = exceptions;
 			sourceTree = "<group>";
 		};
 		76E72ADC28570A1900383829 /* cv */ = {
@@ -201,12 +204,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E72ACB28570A0A00383829 /* c_helpers.h in Headers */,
-				76E72AD528570A0A00383829 /* c_std_exc_classes.h in Headers */,
-				76E72AD228570A0A00383829 /* c_document_scanner_cv.h in Headers */,
-				76E72ACC28570A0A00383829 /* c_types.h in Headers */,
+				76E72AD528570A0A00383829 /* c_swift_std_exc_classes.h in Headers */,
+				76E72AD228570A0A00383829 /* c_swift_document_scanner_cv.h in Headers */,
+				76E72ACC28570A0A00383829 /* c_swift_types.h in Headers */,
 				73C424AA283CD76F00CEAE37 /* DocumentScannerFramework.h in Headers */,
-				76E72ACE28570A0A00383829 /* c_imgcodecs.h in Headers */,
-				76E72AD128570A0A00383829 /* c_mat.h in Headers */,
+				76E72ACE28570A0A00383829 /* c_swift_imgcodecs.h in Headers */,
+				76E72AD128570A0A00383829 /* c_swift_mat.h in Headers */,
+				8420CC6D2926681F00A2AE06 /* cppbind_wrapper_helper.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,15 +306,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E72AE028570A1900383829 /* document_scanner_cv.swift in Sources */,
-				76E72AD328570A0A00383829 /* c_document_scanner_cv.cpp in Sources */,
+				76E72AD328570A0A00383829 /* c_swift_document_scanner_cv.cpp in Sources */,
 				76E72AE128570A1900383829 /* exceptionUtils.swift in Sources */,
-				76E72ACF28570A0A00383829 /* c_mat.cpp in Sources */,
-				76E72AD428570A0A00383829 /* c_std_exc_classes.cpp in Sources */,
+				76E72ACF28570A0A00383829 /* c_swift_mat.cpp in Sources */,
+				76E72AD428570A0A00383829 /* c_swift_std_exc_classes.cpp in Sources */,
 				76E72AE328570A1900383829 /* imgcodecs.swift in Sources */,
-				76E72AD028570A0A00383829 /* c_imgcodecs.cpp in Sources */,
+				76E72AD028570A0A00383829 /* c_swift_imgcodecs.cpp in Sources */,
 				76E72AE428570A1900383829 /* types.swift in Sources */,
 				76E72AE528570A1900383829 /* mat.swift in Sources */,
-				76E72ACD28570A0A00383829 /* c_types.cpp in Sources */,
+				76E72ACD28570A0A00383829 /* c_swift_types.cpp in Sources */,
 				76E72AE228570A1900383829 /* std_exc_classes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
