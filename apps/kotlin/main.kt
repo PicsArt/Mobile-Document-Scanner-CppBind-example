@@ -1,6 +1,6 @@
 package doc_scanner
 
-import cppbind.exception_helpers.StdRangeError
+import cppbind.exceptions.StdRangeError
 import cv.imread
 
 class DocumentScannerApp {

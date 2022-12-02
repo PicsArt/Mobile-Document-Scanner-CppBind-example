@@ -10,7 +10,7 @@
  * Please do not change it manually.
  */
 
-package cppbind.exceptionUtils
+package cppbind
 
 import kotlin.system.exitProcess
 
